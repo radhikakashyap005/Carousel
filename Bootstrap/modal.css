@@ -1,0 +1,46 @@
+.modal {
+    background-color: #e67e7e;
+}
+
+
+.container-fluid {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    padding: 40px;
+    text-align: center;
+    margin: 40px;
+}
+
+@media (max-width: 800px) {
+    .modal {
+        background-color: #e67e7e;
+    }
+
+
+    .container-fluid {
+        position: absolute;
+        top: 15%;
+        left: -10%;
+        padding: 40px;
+        text-align: center;
+
+    }
+}
+
+
+@media (max-width: 400px) {
+    .modal {
+        background-color: #e67e7e;
+    }
+
+
+    .container-fluid {
+        position: absolute;
+        top: 15%;
+        left: -12%;
+        padding: 40px;
+        text-align: center;
+
+    }
+}

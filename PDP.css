@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;;
+}
+
+body {
+    background-color: white;
+}
+
+.end-50 {
+    right: 50% !important;
+}
+
+.d-flex {
+    display: flex !important;
+    /* end: 2%!important; */
+}
+
+#color-black {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1350px;
+    }
+}
+
+
+
+#purple{
+    background-color: #6E588B;
+    color: white;
+    border-radius: 0%;
+}
+
+#black{
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+}
+
+#size{
+    border-radius: 0%;
+    text-align: left;
+}
+
+#latest-designs{
+    background-color: white;
+    color: black;
+    border-radius: 0%;
+}
+
+#margin-bottom{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#add{
+    background-color: #6E588B;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 40%;
+}
