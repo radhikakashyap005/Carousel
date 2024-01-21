@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", function () {
     setInterval(function () {
         var carousel = document.getElementById('carouselExampleSlidesOnly');
